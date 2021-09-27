@@ -26,17 +26,10 @@
     $circulo = PI * $r * $r;
     print "<br>";
 
-  
 
-
-
-  
-
-   
 ?>
 
 
 
 </body>
 </html>
-
