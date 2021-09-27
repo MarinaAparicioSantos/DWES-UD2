@@ -20,10 +20,16 @@
     $cuadrado = $base * $altura;
     $rombo = ($dmayor * $dmenor)/2;
 
-
     define("PI", 3.14159);
-
     $circulo = PI * $r * $r;
+
+    echo "<p>El triángulo de base ", $base, "cm , y altura ", $altura, "cm, tiene un área de ", $triangulo, "cm.</p>";
+    print "<br>";
+    echo "<p>El cuadrado de base ", $base, "cm , y altura ", $altura, "cm, tiene un área de ", $cuadrado, "cm.</p>";
+    print "<br>";
+    echo "<p>El rombo de diagonal mayor ", $dmayor, " y diagonal menor ", $dmenor, " tiene un área de ", $rombo, ".</p>";
+    print "<br>";
+    printf("El círculo de radio %s tiene un área de %s.", $r, $circulo);
     print "<br>";
 
 
