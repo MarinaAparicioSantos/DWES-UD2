@@ -14,9 +14,9 @@
     $poblacion = "El Viso del Alcor";
     $edad = 21;
 
-    echo "Soy ", $nombre, ", tengo ", $edad, " años de edad y vivo en ", $poblacion, ".";
+    echo "<p>Soy ", $nombre, ", tengo ", $edad, " años de edad y vivo en ", $poblacion, ".</p>";
 
-    print "<p>";
+    print "<br>";
 
     printf("Soy %s, tengo %s años de edad y vivo en %s.", $nombre, $edad, $poblacion);
 ?>
