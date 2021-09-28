@@ -29,7 +29,7 @@
     print "<br>";
     echo "<p>El rombo de diagonal mayor ", $dmayor, " y diagonal menor ", $dmenor, " tiene un área de ", $rombo, ".</p>";
     print "<br>";
-    printf("El círculo de radio %s tiene un área de %s.", $r, $circulo);
+    printf("<p>El círculo de radio %s tiene un área de %s.</p>", $r, $circulo);
     print "<br>";
 
 
