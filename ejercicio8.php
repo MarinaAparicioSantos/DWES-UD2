@@ -21,10 +21,11 @@ echo "<br>";
 echo "La variable es de tipo objeto - " , var_export(is_object($varUno));
 
 $varUno = 2.66;
+
 echo "<br>";
 printf("El numero %s ", $varUno);
 echo "<br>";
-echo "La variable es de tipo numérico: " , var_export(is_numeric($varUno));
+echo "La variable es de tipo float: " , var_export(is_float($varUno));
 echo "<br>";
 echo "La variable es de tipo scalar: " , var_export(is_scalar($varUno));
 echo "<br>";

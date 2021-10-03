@@ -135,6 +135,7 @@
 
 <br>
 
+<h1>OPERACIÓN OR</h1>
 <table border="1">
     <tr>
 

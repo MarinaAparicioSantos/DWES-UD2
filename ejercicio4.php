@@ -18,9 +18,14 @@
     $totalCami = $camisa * $camiCantidad;
 
     $total = $totalPant + $totalCami;
-    define("DESCUENTO", 8);
+    define('DESCUENTO', 8);
 
     $totalDescuento = $total-(DESCUENTO * $total /100);
+
+    printf("<p>El precio de un pantalón es de %s.</p>", $pantalon);
+    printf("<p>El precio de una camisa  es de %s.</p>", $camisa);
+    printf("<p>El total sin descuento es de %s.</p>", $total);
+    printf("<p>El total con descuento es de %.2f.</p>", $totalDescuento);
 
     $zapatos = 45.99;
 
@@ -30,16 +35,10 @@
 
     $totalCuentaZapatos = $totalDescuento += $totalConZapatosDesc;
 
-    
-    printf("<p>El precio de un pantalón es de %s.</p>", $pantalon);
-    printf("<p>El precio de una camisa  es de %s.</p>", $camisa);
-    printf("<p>El total sin descuento es de %s.</p>", $total);
-    printf("<p>El total con descuento es de %.2f.</p>", $totalDescuento);
     print "<br>";
     printf("<p>El precio de los zapatos sin descuento es de %s.</p>", $zapatos);
     printf("<p>El precio de los zapatos con descuento es de %.2f.</p>", $totalConZapatosDesc);
     printf("<p>El total de la cuenta es de %.2f.</p>", $totalCuentaZapatos);
-
 
 ?>
 

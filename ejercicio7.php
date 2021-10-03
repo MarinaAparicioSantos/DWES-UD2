@@ -13,13 +13,38 @@
 $primero = 4;
 $segundo = 7;
 
+printf("El numero %d en binario es %b", $primero, $primero);
+echo "<br>";
+printf("El numero %d en binario es %b", $segundo, $segundo);
+echo "<br>";
 
 
-printf("El numero %s en binario es %b", $primero, $primero);
+$opAND = $primero & $segundo;
+printf("La operacion con &: %b", $opAND);
+
 echo "<br>";
-printf("El numero %s en binario es %b", $segundo, $segundo);
+
+$opNOT = ~$primero;
+
+printf("La operacion con not: %b", $opNOT);
+
 echo "<br>";
-printf("La operacion con &: ", var_export($primero & $segundo));
+
+$opNOT = ~$segundo;
+
+printf("La operacion con not: %b", $opNOT);
+
+echo "<br>";
+
+$opOR = $primero | $segundo;
+
+printf("La operacion con or: %b", $opOR);
+
+echo "<br>";
+
+$opXOR = $primero ^$segundo;
+
+printf("La operacion con xor: %b", $opXOR);
 
 ?>
 
